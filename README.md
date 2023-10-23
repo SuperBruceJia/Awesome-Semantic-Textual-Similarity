@@ -42,6 +42,6 @@ This repository, called **Awesome-Semantic-Textual-Similarity**, contains a coll
 
 ## Alignment/Attention-based Methods
 
-## Word-Distance-based Methods
+## Word Distance-based Methods
 
 ## Sentence Embedding-based Methods
