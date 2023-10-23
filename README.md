@@ -10,6 +10,7 @@ This repository, called **Awesome-Semantic-Textual-Similarity**, contains a coll
 *Welcome to share your papers, thoughts, and ideas by [submitting an issue](https://github.com/SuperBruceJia/Awesome-Semantic-Textual-Similarity/issues/new)!* 
 
 ## Contents
+- [Model Evolution Overview](#Model-Evolution-Overview)
 - [Presentations](#Presentations)
 - [Benchmarks](#Benchmarks)
   - [STS](#STS)
@@ -24,6 +25,8 @@ This repository, called **Awesome-Semantic-Textual-Similarity**, contains a coll
   - [Alignment/Attention-based Methods](#Alignment/Attention-based-Methods)
   - [Word-Distance-based Methods](#Word-Distance-based-Methods)
   - [Sentence Embedding-based Methods](#Sentence-Embedding-based-Methods)
+
+# Model Evolution Overview
 
 # Presentations 
 
