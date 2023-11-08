@@ -8,9 +8,7 @@ Awesome-Semantic-Textual-Similarity: A Curated List of Semantic/Sentence Textual
 This repository, called **Awesome-Semantic-Textual-Similarity**, contains a collection of resources and papers 
 on **Semantic/Sentence Textual Similarity (STS)** in **Large Language Models** and **NLP**. 
 
-*Welcome to share your papers, thoughts, and ideas by [submitting an issue](https://github.com/SuperBruceJia/Awesome-Semantic-Textual-Similarity/issues/new)!* 
-
----
+*Welcome to share your papers, thoughts, and ideas by [submitting an issue](https://github.com/SuperBruceJia/Awesome-Semantic-Textual-Similarity/issues/new)!*
 
 ## Contents
 - [Model Evolution Overview](#Model-Evolution-Overview)
@@ -29,13 +27,9 @@ on **Semantic/Sentence Textual Similarity (STS)** in **Large Language Models** a
   - [Pearson Correlation](#Pearson-Correlation)
   - [Spearman Rank Correlation](#Spearman-Rank-Correlation)
 
----
-
 # Model Evolution Overview
 
 ![Overview_before_2022.png](Overview_before_2022.png)
-
----
 
 # Presentations
 **Sentence Textual Similarity: Model Evolution Overview** \
@@ -43,13 +37,9 @@ on **Semantic/Sentence Textual Similarity (STS)** in **Large Language Models** a
 [[Link](https://shuyuej.com/files/Presentation/Sentence_Textual_Similarity-Model_Evolution_Overview.pdf)] \
 Oct 2023
 
----
-
 # Benchmarks
 
 STS12, STS13, STS14, STS15, STS16, STS Benchmark (STSb), and SICK-Relatedness
-
----
 
 # Papers
 ## Baselines
@@ -98,8 +88,6 @@ arXiv 2018, [[Paper](https://arxiv.org/pdf/1803.11175.pdf)] [[GitHub](https://tf
 EMNLP 2019, [[Paper](https://arxiv.org/pdf/1908.10084.pdf)] [[GitHub](https://github.com/UKPLab/sentence-transformers)] \
 27 Aug 2019
 
----
-
 ## Matrix-based Methods
 **Pairwise Word Interaction Modeling with Deep Neural Networks for Semantic Similarity Measurement** \
 *Hua He, Jimmy Lin* \
@@ -115,8 +103,6 @@ AAAI 2016, [[Paper](https://cdn.aaai.org/ojs/10341/10341-13-13869-1-2-20201228.p
 *Myeongjun Jang, Deuk Sin Kwon, Thomas Lukasiewicz* \
 IJCNLP 2015, [[Paper](https://aclanthology.org/P15-1007.pdf)]\
 26 July 2015
-
----
 
 ## Alignment-based Methods
 ### Attention Mechanism
@@ -181,8 +167,6 @@ SemEval 2015, [[Paper](https://aclanthology.org/S15-2027.pdf)]\
 TACL 2014, [[Paper](https://aclanthology.org/Q14-1018.pdf)]\
 01 May 2014
 
----
-
 ## Word Distance-based Methods
 **Improving Word Mover’s Distance by Leveraging Self-attention Matrix** \
 *Hiroaki Yamagiwa, Sho Yokoi, Hidetoshi Shimodaira* \
@@ -208,8 +192,6 @@ EMNLP 2019, [[Paper](https://aclanthology.org/D19-1053.pdf)] [[GitHub](https://g
 *Matt Kusner, Yu Sun, Nicholas Kolkin, Kilian Weinberger* \
 ICML 2015, [[Paper](https://proceedings.mlr.press/v37/kusnerb15.pdf)] [[GitHub](https://github.com/mkusner/wmd)] \
 06 July 2015
-
----
 
 ## Sentence Embedding-based Methods
 ### Paragraph Vector-based Methods
@@ -316,8 +298,6 @@ ICLR 2021, [[Paper](https://openreview.net/pdf?id=Ov_sMNau-PF)] [[GitHub](https:
 arXiv 2020, [[Paper](https://arxiv.org/pdf/2012.15466.pdf)] \
 31 Dec 2020
 
----
-
 # Distance Measurement
 **Evolution of Semantic Similarity - A Survey** \
 *Dhivya Chandrasekaran, Vijay Mago* \
@@ -328,8 +308,6 @@ ACM Computing Survey 2021, [[Paper](https://dl.acm.org/doi/pdf/10.1145/3440755)]
 *Saif M. Mohammad, Graeme Hirst* \
 arXiv 2012, [[Paper](https://arxiv.org/pdf/1203.1858.pdf)] \
 8 Mar 2012
-
----
 
 # Evaluation Metrics
 ## Pearson Correlation
