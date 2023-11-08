@@ -41,7 +41,51 @@ Oct 2023
 
 # Benchmarks
 
-STS12, STS13, STS14, STS15, STS16, STS Benchmark (STSb), and SICK-Relatedness
+Please check [here](https://github.com/brmson/dataset-sts) and [here](https://github.com/alvations/stasis) to download all the benchmark databases below.
+
+### STS
+**STS12**:\
+**SemEval-2012 Task 6: A Pilot on Semantic Textual Similarity** \
+*Eneko Agirre, Daniel Cer, Mona Diab, Aitor Gonzalez-Agirre* \
+SemEval 2012, [[Paper](https://aclanthology.org/S12-1051.pdf)] [[Download](https://github.com/brmson/dataset-sts/tree/master/data/sts/semeval-sts/2012)]\
+07 June 2012
+
+**STS13**:\
+**\*SEM 2013 shared task: Semantic Textual Similarity** \
+*Eneko Agirre, Daniel Cer, Mona Diab, Aitor Gonzalez-Agirre, Weiwei Guo* \
+*SEM 2013, [[Paper](https://aclanthology.org/S13-1004.pdf)] [[Download](https://github.com/brmson/dataset-sts/tree/master/data/sts/semeval-sts/2013)]\
+13 June 2013
+
+**STS14**:\
+**SemEval-2014 Task 10: Multilingual Semantic Textual Similarity** \
+*Eneko Agirre, Carmen Banea, Claire Cardie, Daniel Cer, Mona Diab, Aitor Gonzalez-Agirre, Weiwei Guo, Rada Mihalcea, German Rigau, Janyce Wiebe* \
+SemEval 2014, [[Paper](https://aclanthology.org/S14-2010.pdf)] [[Download](https://github.com/brmson/dataset-sts/tree/master/data/sts/semeval-sts/2014)]\
+23 Aug 2014
+
+**STS15**:\
+**SemEval-2015 Task 2: Semantic Textual Similarity, English, Spanish and Pilot on Interpretability** \
+*Eneko Agirre, Carmen Banea, Claire Cardie, Daniel Cer, Mona Diab, Aitor Gonzalez-Agirre, Weiwei Guo, Iñigo Lopez-Gazpio, Montse Maritxalar, Rada Mihalcea, German Rigau, Larraitz Uria, Janyce Wiebe* \
+SemEval 2015, [[Paper](https://aclanthology.org/S15-2045.pdf)] [[Download](https://github.com/brmson/dataset-sts/tree/master/data/sts/semeval-sts/2015)]\
+04 June 2015
+
+**STS16**:\
+**SemEval-2016 Task 1: Semantic Textual Similarity, Monolingual and Cross-Lingual Evaluation** \
+*Eneko Agirre, Carmen Banea, Daniel Cer, Mona Diab, Aitor Gonzalez-Agirre, Rada Mihalcea, German Rigau, Janyce Wiebe* \
+SemEval 2016, [[Paper](https://aclanthology.org/S16-1081.pdf)] [[Download](https://github.com/brmson/dataset-sts/tree/master/data/sts/semeval-sts/2016)]\
+16 June 2016
+
+**STS Benchmark (STSb)**:\ 
+**SemEval-2017 Task 1: Semantic Textual Similarity Multilingual and Crosslingual Focused Evaluation** \
+*Daniel Cer, Mona Diab, Eneko Agirre, Iñigo Lopez-Gazpio, Lucia Specia* \
+SemEval 2017, [[Paper](https://aclanthology.org/S17-2001.pdf)] [[Download](https://github.com/alvations/stasis)]\
+03 Aug 2017
+
+### SICK-Relatedness
+**SICK-Relatedness**:\
+**A SICK Cure for the Evaluation of Compositional Distributional Semantic Models** \
+*Marco Marelli, Stefano Menini, Marco Baroni, Luisa Bentivogli, Raffaella Bernardi, Roberto Zamparelli* \
+LREC 2014, [[Paper](http://www.lrec-conf.org/proceedings/lrec2014/pdf/363_Paper.pdf)] [[Download](https://github.com/alvations/stasis/tree/master/SICK-data)]\
+26 May 2014
 
 # Papers
 ## Baselines
@@ -322,7 +366,7 @@ $$
 where $s_i$ and $q_i$ are the gold label and the model’s prediction of the $i$-th sentence. $\bar{s}$ and $\bar{q}$ are the mean values of $\textbf{s}$ and $\textbf{q}$. $n$ is the number of sentences.
 
 ## Spearman Rank Correlation
-(Spearman’s Rank-order Correlation Coefficient) − measure the prediction monotonicity
+Spearman’s Rank-order Correlation Coefficient − measure the prediction monotonicity
 
 $$ 
 \rho=1-\frac{6 \sum_{i=1}^n d_i^2 }{n\left(n^2-1\right)},
