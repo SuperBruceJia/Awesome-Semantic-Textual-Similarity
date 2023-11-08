@@ -8,6 +8,8 @@ Awesome-Semantic-Textual-Similarity: A Curated List of Semantic/Sentence Textual
 This repository, called **Awesome-Semantic-Textual-Similarity**, contains a collection of resources and papers 
 on **Semantic/Sentence Textual Similarity (STS)** in **Large Language Models** and **NLP**. 
 
+"*If you can't measure it, you can't improve it*. " - British Physicist William Thomson
+
 *Welcome to share your papers, thoughts, and ideas by [submitting an issue](https://github.com/SuperBruceJia/Awesome-Semantic-Textual-Similarity/issues/new)!*
 
 ## Contents
