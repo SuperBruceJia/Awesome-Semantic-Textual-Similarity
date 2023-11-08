@@ -288,7 +288,7 @@ where $s_i$ and $q_i$ are the gold label and the model’s prediction of the $i$
 (Spearman’s Rank-order Correlation Coefficient) − measure the prediction monotonicity
 
 $$
-\rho=1-\frac{6 \sum_{i=1}^n d_i^2}{n\left(n^2-1\right)},
+\rho=1-\frac{6 \sum_{i=1}^{n} d_i^2}{n\left(n^2-1\right)},
 $$
 
 where $d_i$ is the difference between the $i$-th sentence’s rank in the model’s predictions and gold labels. 
