@@ -360,7 +360,7 @@ arXiv 2012, [[Paper](https://arxiv.org/pdf/1203.1858.pdf)] \
 Pearson Linear Correlation Coefficient − measure the prediction accuracy
 
 $$
-r=\frac{\sum_{i=1}^n\left(s_i-\bar{s}\right)\left(q_i-\bar{q}\right)}{\sqrt{\sum_{i=1}^n\left(s_i-\bar{s}\right)^2} \sqrt{\sum_{i=1}^n\left(q_i-\bar{q}\right)^2}},
+r=\frac{ \sum_{i=1}^{n} \left(s_i-\bar{s}\right) \left(q_i-\bar{q}\right) }{\sqrt{ \sum_{i=1}^{n} \left(s_i-\bar{s}\right)^2 } \sqrt{\sum_{i=1}^{n} \left(q_i-\bar{q}\right)^2 }}, 
 $$
 
 where $s_i$ and $q_i$ are the gold label and the model’s prediction of the $i$-th sentence. $\bar{s}$ and $\bar{q}$ are the mean values of $\textbf{s}$ and $\textbf{q}$. $n$ is the number of sentences.
@@ -369,7 +369,7 @@ where $s_i$ and $q_i$ are the gold label and the model’s prediction of the $i$
 Spearman’s Rank-order Correlation Coefficient − measure the prediction monotonicity
 
 $$ 
-\rho=1-\frac{6 \sum_{i=1}^n d_i^2 }{n\left(n^2-1\right)},
+\rho=1-\frac{6 \sum_{i=1}^{n} d_i^2 }{n\left(n^2-1\right)},
 $$
 
 where $d_i$ is the difference between the $i$-th sentence’s rank in the model’s predictions and gold labels. 
