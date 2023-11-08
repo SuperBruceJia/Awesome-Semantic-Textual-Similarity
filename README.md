@@ -19,30 +19,87 @@ on **Semantic/Sentence Textual Similarity (STS)** in **Large Language Models** a
   - [STS](#STS)
   - [SICK-Relatedness](#SICK-Relatedness)
 - [Papers](#Papers)
+  - [Baselines](#Baselines)
   - [Matrix-based Methods](#Matrix-based-Methods)
-  - [Alignment/Attention-based Methods](#Alignment/Attention-based-Methods)
+  - [Alignment/Attention-based Methods](#Alignment-based-Methods)
   - [Word-Distance-based Methods](#Word-Distance-based-Methods)
   - [Sentence Embedding-based Methods](#Sentence-Embedding-based-Methods)
 - [Distance Measurement](#Distance-Measurement)
 - [Evaluation Metrics](#Evaluation-Metrics)
   - [Pearson Correlation](#Pearson-Correlation)
-  - [Spearman's Rank Correlation](#Spearman's-Rank-Correlation)
+  - [Spearman Rank Correlation](#Spearman-Rank-Correlation)
 
 ---
 
 # Model Evolution Overview
 
+![Overview_before_2022.png](Overview_before_2022.png)
+
 ---
 
-# Presentations 
+# Presentations
+**Sentence Textual Similarity: Model Evolution Overview** \
+*Shuyue Jia, Dependable Computing Laboratory, Boston University* \
+[[Link](https://shuyuej.com/files/Presentation/Sentence_Textual_Similarity-Model_Evolution_Overview.pdf)] \
+Oct 2023
 
 ---
 
 # Benchmarks
 
+STS12, STS13, STS14, STS15, STS16, STS Benchmark (STSb), and SICK-Relatedness
+
 ---
 
 # Papers
+## Baselines
+**GloVe: Global Vectors for Word Representation** \
+*Jeffrey Pennington, Richard Socher, Christopher Manning* \
+EMNLP 2014, [[Paper](https://aclanthology.org/D14-1162.pdf)] [[GitHub](https://github.com/stanfordnlp/GloVe)] \
+25 Oct 2014
+
+**Skip-Thought Vectors** \
+*Ryan Kiros, Yukun Zhu, Ruslan Salakhutdinov, Richard S. Zemel, Antonio Torralba, Raquel Urtasun, Sanja Fidler* \
+NeurIPS 2015, [[Paper](https://arxiv.org/pdf/1506.06726.pdf)] [[GitHub](https://github.com/nnakul/skip-thought-vectors)] \
+22 Jun 2015
+
+**Supervised Learning of Universal Sentence Representations from Natural Language Inference Data** \
+*Alexis Conneau, Douwe Kiela, Holger Schwenk, Loïc Barrault, Antoine Bordes* \
+EMNLP 2017, [[Paper](https://aclanthology.org/D17-1070.pdf)] [[GitHub](https://github.com/facebookresearch/InferSent)] \
+07 Sept 2017
+
+**BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding** \
+*Jacob Devlin, Ming-Wei Chang, Kenton Lee, Kristina Toutanova* \
+NAACL-HLT 2019, [[Paper](https://aclanthology.org/N19-1423.pdf)] [[GitHub](https://github.com/google-research/bert)] \
+24 May 2019
+
+**BERTScore: Evaluating Text Generation with BERT** \
+*Tianyi Zhang, Varsha Kishore, Felix Wu, Kilian Q. Weinberger, Yoav Artzi* \
+ICLR 2020, [[Paper](https://arxiv.org/pdf/1904.09675.pdf)] [[GitHub](https://github.com/google-research/bleurt)] \
+24 Feb 2020
+
+**BLEURT: Learning Robust Metrics for Text Generation** \
+*Thibault Sellam, Dipanjan Das, Ankur Parikh* \
+ACL 2020, [[Paper](https://aclanthology.org/2020.acl-main.704.pdf)] [[GitHub](https://github.com/Tiiiger/bert_score)] \
+05 July 2020
+
+**Dense Passage Retrieval for Open-Domain Question Answering** \
+*Vladimir Karpukhin, Barlas Oguz, Sewon Min, Patrick Lewis, Ledell Wu, Sergey Edunov, Danqi Chen, Wen-tau Yih* \
+EMNLP 2020, [[Paper](https://aclanthology.org/2020.emnlp-main.550.pdf)] [[GitHub](https://github.com/facebookresearch/DPR)] \
+16 Nov 2020
+
+**Universal Sentence Encoder** \
+*Daniel Cer, Yinfei Yang, Sheng-yi Kong, Nan Hua, Nicole Limtiaco, Rhomni St. John, Noah Constant, Mario Guajardo-Cespedes, Steve Yuan, Chris Tar, Yun-Hsuan Sung, Brian Strope, Ray Kurzweil* \
+arXiv 2018, [[Paper](https://arxiv.org/pdf/1803.11175.pdf)] [[GitHub](https://tfhub.dev/google/universal-sentence-encoder/4)] \
+12 Apr 2018
+
+**Sentence-BERT: Sentence Embeddings using Siamese BERT-Networks** \
+*Nils Reimers, Iryna Gurevych* \
+EMNLP 2019, [[Paper](https://arxiv.org/pdf/1908.10084.pdf)] [[GitHub](https://github.com/UKPLab/sentence-transformers)] \
+27 Aug 2019
+
+---
+
 ## Matrix-based Methods
 **Pairwise Word Interaction Modeling with Deep Neural Networks for Semantic Similarity Measurement** \
 *Hua He, Jimmy Lin* \
@@ -61,7 +118,7 @@ IJCNLP 2015, [[Paper](https://aclanthology.org/P15-1007.pdf)]\
 
 ---
 
-## Alignment/Attention-based Methods
+## Alignment-based Methods
 ### Attention Mechanism
 **Simple and Effective Text Matching with Richer Alignment Features** \
 *Runqi Yang, Jianhai Zhang, Xing Gao, Feng Ji, Haiqing Chen* \
@@ -284,7 +341,7 @@ $$
 
 where $s_i$ and $q_i$ are the gold label and the model’s prediction of the $i$-th sentence. $\bar{s}$ and $\bar{q}$ are the mean values of $\textbf{s}$ and $\textbf{q}$. $n$ is the number of sentences.
 
-## Spearman's Rank Correlation
+## Spearman Rank Correlation
 (Spearman’s Rank-order Correlation Coefficient) − measure the prediction monotonicity
 
 $$ 
