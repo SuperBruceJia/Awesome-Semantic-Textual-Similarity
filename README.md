@@ -74,7 +74,7 @@ SemEval 2015, [[Paper](https://aclanthology.org/S15-2045.pdf)] [[Download](https
 SemEval 2016, [[Paper](https://aclanthology.org/S16-1081.pdf)] [[Download](https://github.com/brmson/dataset-sts/tree/master/data/sts/semeval-sts/2016)]\
 16 June 2016
 
-**STS Benchmark (STSb)**:\ 
+**STS Benchmark (STSb)**:\
 **SemEval-2017 Task 1: Semantic Textual Similarity Multilingual and Crosslingual Focused Evaluation** \
 *Daniel Cer, Mona Diab, Eneko Agirre, Iñigo Lopez-Gazpio, Lucia Specia* \
 SemEval 2017, [[Paper](https://aclanthology.org/S17-2001.pdf)] [[Download](https://github.com/alvations/stasis)]\
