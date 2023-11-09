@@ -81,7 +81,6 @@ SemEval 2017, [[Paper](https://aclanthology.org/S17-2001.pdf)] [[Download](https
 03 Aug 2017
 
 ### SICK-Relatedness
-**SICK-Relatedness**:\
 **A SICK Cure for the Evaluation of Compositional Distributional Semantic Models** \
 *Marco Marelli, Stefano Menini, Marco Baroni, Luisa Bentivogli, Raffaella Bernardi, Roberto Zamparelli* \
 LREC 2014, [[Paper](http://www.lrec-conf.org/proceedings/lrec2014/pdf/363_Paper.pdf)] [[Download](https://github.com/alvations/stasis/tree/master/SICK-data)]\
