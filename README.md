@@ -28,6 +28,7 @@ on **Semantic/Sentence Textual Similarity (STS)** in **Large Language Models** a
 - [Evaluation Metrics](#Evaluation-Metrics)
   - [Pearson Correlation](#Pearson-Correlation)
   - [Spearman Rank Correlation](#Spearman-Rank-Correlation)
+- [Citation](#Citation)
 
 # Model Evolution Overview
 
@@ -368,3 +369,34 @@ Spearman’s Rank-order Correlation Coefficient − measure the prediction monot
 $$\rho=1-\frac{6 \sum\nolimits_{i=1}^{n} d_i^2 }{n\left(n^2-1\right)},$$
 
 where $d_i$ is the difference between the $i$-th sentence’s rank in the model’s predictions and gold labels. 
+
+# Citation
+If you find our list useful, please consider citing our repo and toolkit in your publications. We provide a BibTeX entry below.
+```bibtex
+@misc{JiaAwesomeSTS23,
+      author = {Jia, Shuyue},
+      title = {Awesome-Semantic-Textual-Similarity},
+      year = {2023},
+      publisher = {GitHub},
+      journal = {GitHub Repository},
+      howpublished = {\url{https://github.com/SuperBruceJia/Awesome-Semantic-Textual-Similarity}},
+}
+
+@misc{JiaAwesomeLLM23,
+      author = {Jia, Shuyue},
+      title = {Awesome-{LLM}-Self-Consistency},
+      year = {2023},
+      publisher = {GitHub},
+      journal = {GitHub Repository},
+      howpublished = {\url{https://github.com/SuperBruceJia/Awesome-LLM-Self-Consistency}},
+}
+
+@misc{JiaPromptCraft23,
+      author = {Jia, Shuyue},
+      title = {{PromptCraft}: A Prompt Perturbation Toolkit},
+      year = {2023},
+      publisher = {GitHub},
+      journal = {GitHub Repository},
+      howpublished = {\url{https://github.com/SuperBruceJia/promptcraft}},
+}
+```
