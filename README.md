@@ -375,7 +375,7 @@ If you find our list useful, please consider citing our repo and toolkit in your
 ```bibtex
 @misc{JiaAwesomeSTS23,
       author = {Jia, Shuyue},
-      title = {Awesome-Semantic-Textual-Similarity},
+      title = {Awesome Semantic Textual Similarity},
       year = {2023},
       publisher = {GitHub},
       journal = {GitHub Repository},
@@ -384,7 +384,7 @@ If you find our list useful, please consider citing our repo and toolkit in your
 
 @misc{JiaAwesomeLLM23,
       author = {Jia, Shuyue},
-      title = {Awesome-{LLM}-Self-Consistency},
+      title = {Awesome {LLM} Self-Consistency},
       year = {2023},
       publisher = {GitHub},
       journal = {GitHub Repository},
