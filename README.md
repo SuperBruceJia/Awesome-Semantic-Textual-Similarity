@@ -36,7 +36,7 @@ on **Semantic/Sentence Textual Similarity (STS)** in **Large Language Models** a
 
 # Presentations
 **Sentence Textual Similarity: Model Evolution Overview** \
-*Shuyue Jia, Dependable Computing Laboratory, Boston University* \
+*Shuyue Jia, Boston University* \
 [[Link](https://shuyuej.com/files/Presentation/Sentence_Textual_Similarity-Model_Evolution_Overview.pdf)] \
 Oct 2023
 
